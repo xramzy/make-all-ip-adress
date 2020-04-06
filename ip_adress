@@ -1,0 +1,24 @@
+#make all ip address
+print("=====================")
+print("[*]v1")
+print("[*]youtube : ebflearn2")
+print("[*]welcome")
+print("=====================")
+
+ip = "192.168.1."
+
+for x in range(256):
+    print(ip,str(x))
+    
+#output is
+#192.168.1.0
+#192.168.1.1
+#192.168.1.2
+#192.168.1.3
+#...........
+#...........
+#192.168.1.255
+#To save it in a file open the terminal and type the following command
+#python 3 namescript.py > filename.txt
+#good luck
+#xramzy passed from here *^*
